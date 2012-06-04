@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 
+gem 'devise',             :git => 'https://github.com/plataformatec/devise.git', :branch => 'master'
 gem 'haml'
 gem 'jquery-rails'
 gem 'mysql2'
+gem 'omniauth'
 gem 'rails', '3.2.2'
 gem 'twitter-bootstrap-rails'
 

@@ -1,5 +1,6 @@
 .span12.zero-lmargin.right-align
-  = link_to 'sign in'
-  = link_to 'create profile'
+  = link_to 'Sign in', new_session_path(:user)
+  |
+  = link_to 'Sign up', new_registration_path(:user)
 .span12.zero-lmargin.center
   %h2=link_to 'Gift Me Now', '/', class: 'brand'
