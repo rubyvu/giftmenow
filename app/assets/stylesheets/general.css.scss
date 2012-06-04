@@ -1,0 +1,26 @@
+#wrapper{
+  margin: 0 auto;
+  width: 1170px;
+  height: 100%;
+  #wrapper-inner{
+    height: 100%;
+    min-height: 100%;
+    float: left;
+    box-shadow: 1px 1px 10px 1px #666666;
+    margin: 10px 0;
+    #header{
+      background-color: #A7A37E;
+    }
+    #content{
+      background-color: #EFECCA;
+      min-height: 580px;
+    }
+    #footer{
+      background-color: #A7A37E;
+      bottom: 0; 
+    }
+  }
+  #header, #content, #footer{
+    padding: 20px;
+  }
+}
