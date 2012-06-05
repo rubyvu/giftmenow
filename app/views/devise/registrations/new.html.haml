@@ -1,6 +1,9 @@
 %h2 Sign up
 ~ form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f|
   .field.span12.zero-lmargin
+    .span2= f.label :name
+    .span4= f.email_field :name
+  .field.span12.zero-lmargin
     .span2= f.label :email
     .span4= f.email_field :email
   .field.span12.zero-lmargin
@@ -10,6 +13,6 @@
     .span2= f.label :password_confirmation
     .span4= f.password_field :password_confirmation
   .field.span12
-    = f.submit :sign_up
+    = f.submit 'Sign Up'
   .field.span12
     = render "devise/shared/links"
