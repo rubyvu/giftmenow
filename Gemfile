@@ -5,6 +5,8 @@ gem 'haml'
 gem 'jquery-rails'
 gem 'mysql2'
 gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'omniauth-twitter'
 gem 'rails', '3.2.2'
 gem 'twitter-bootstrap-rails'
 

@@ -16,3 +16,8 @@
     = f.submit 'Sign Up'
   .field.span12
     = render "devise/shared/links"
+    
+.field    
+  = link_to "Twitter", "/auth/twitter", class: "auth_provider"  
+  |
+  = link_to "Facebook", "/auth/facebook", class: "auth_provider" 
